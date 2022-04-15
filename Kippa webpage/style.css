@@ -44,6 +44,14 @@ header img{
   text-decoration:none;
 }
 
+.navbar a::after {
+  content: url('/Images/outline_arrow_drop_down_black_24dp.png');
+  position: absolute;
+  top: 1vh;
+  filter: invert(1);
+  transform: scale(.5);
+}
+
 .navbar .btn{
   margin-right: 90px;
   padding: 3px 20px;
@@ -74,14 +82,14 @@ header img{
   width: 100%;
   height: 100%;
   z-index: 1;
-  box-shadow: inset 120px 100px 100px rgb(20, 20, 66), inset -120px -200px 100px rgb(20, 20, 66);
+  box-shadow: inset 90px 100px 100px rgb(24, 24, 74), inset -120px -200px 100px rgb(5, 5, 11);
   border-bottom-right-radius: 30%;
   border-bottom-left-radius: 30%;
 }
 
 .showcase h1{
   font-size: 70px;
-  z-index: 2;
+  z-index: 20;
 }
 
 .showcase img {
